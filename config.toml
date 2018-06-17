@@ -37,6 +37,7 @@ relativeurls = true
 site_theme = "grey"
 site_layout = "row"
 enable_jumbo = "true"
+custom_css = ["custom_fonts.css"]
 # truncate = "100"
 # about_logo = "img/host/lewis.jpeg"
 copyright_notice = "Copyright 2018"
