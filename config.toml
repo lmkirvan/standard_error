@@ -1,0 +1,112 @@
+baseurl = "https://zen-darwin-fcf048.netlify.com/"
+languageCode = "en-us"
+title = "Standard Error"
+theme = "castanet"
+#googleAnalytics = "UA-100789009-1"
+#disqusShortname = "arresteddevops"
+themesdir = "themes"
+paginate = "5"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+relativeurls = true
+
+[permalinks]
+	about = "/:filename/"
+	contact = "/:filename/"
+	people = "/:filename/"
+	
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  
+# The theme supports menus with up to one submenu per menu item
+# The menu name must be "Main"
+# The menus are sorted based upon their identifier
+
+[[Menu.Main]]
+    name = "About"
+    identifier = "about"
+    url = "about"
+    
+[[Menu.Main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "blog"    
+
+[params]
+
+site_theme = "grey"
+site_layout = "row"
+enable_jumbo = "true"
+# truncate = "100"
+# about_logo = "img/host/lewis.jpeg"
+copyright_notice = "Copyright 2018"
+itunes_subscribe = ""
+android_subscribe = ""
+google_play_subscribe = ""
+stitcher_subscribe = ""
+#soundcloud_subscribe = "http://feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
+#pocketcasts_subscribe = "http://pcasts.in/feed/feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
+#mailchimp_subscribe = "//arresteddevops.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
+#rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
+description = "Standard Error is a data podcast, but less boring."
+media_prefix = ""
+highlightjsVersion = "9.11.0"
+highlightjsCDN = "//cdn.bootcss.com"
+highlightjsLang = ["r", "python"]
+highlightjsTheme = "github"
+
+MathJaxCDN = "//cdn.bootcss.com"
+MathJaxVersion = "2.7.1"
+  
+  [params.feed]
+    feed_copyright = "" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle = "" #no markdown or HTML
+    itunes_author = "" #no markdown or HTML
+    itunes_summary = "A data podcast, but not boring" # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = ""
+    itunes_owner_email = "" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    itunes_image = "https://i.imgur.com/D5aF93D.png" #fqdn to the image art for your podcast
+    itunes_top_category = ""
+    itunes_first_sub_category = ""
+    itunes_second_sub_category = ""
+
+  [params.social]
+    github = ""
+    gitlab = ""
+    facebook = ""
+    facebook_admin = ""  # This needs to be a page admin to get domain insights
+    twitter = ""
+    twitter_domain = "" # This domain shows in twitter cards as "View on `twitter_domain`"
+    googleplus = ""
+    pinterest = ""
+    instagram = ""
+    youtube = ""
+    linkedin = ""
+
+  [params.authors]
+    [params.authors.Lisa]
+      name	= "Lisa Riemondy"
+      thumbnail = "img/host/lisa.jpeg"
+      bio = "Lisa is roaming"
+    [params.authors.Lewis]
+      name	= "Lewis Kirvan"
+      thumbnail = "img/host/lewis.jpeg"
+      bio = "Lewis lives in Takoma Park MD. He's a reformed lawyer."
+      [params.authors.Lewis.social]
+        github = "lmkirvan"
+        #facebook = ""
+        twitter = "lewiskirvan"
+        #linkedin = ""
+        #homepage = ""
+        #pinterest = ""
+        #instagram = ""
+        #youtube = ""
+    [params.authors.Kate]
+      name = "Kate Mullan"
+      thumbnail = "img/host/kate.jpeg"
+      bio = "Kate is a person."
+    [params.authors.Eric]
+      name = "Eric Przybylinski"
+      thumbnail = "img/host/eric.jpg"
+      bio = "Eric too"
+    
